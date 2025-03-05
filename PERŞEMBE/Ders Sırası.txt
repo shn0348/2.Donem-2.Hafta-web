@@ -1,0 +1,13 @@
+1- U1 yap
+2- U2 yaptır.
+3- U3 yap
+4- U4 yaptır.
+5- Prompt metodunu anlat.
+6- Uygulama yaş hesabı yaparak anlat.(U5)
+7- Doğum tarihi girip yaşını göstereni yaptır.(U6)
+8- Prompt Kullanarak 2 sayının toplamını,çarpımını ve farkını gösteren uygulama yap.
+9- U7 yaptır.
+10- U8 yap
+11- U9 yaptır.
+12- U10 Yap
+13- U11 Yaptır-Yap

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Function ve Olay Uygulaması</title>
+    
+</head>
+<body>
+    <h1>4 Büyük Takım Renk Uygulaması</h1>
+    <button type="button" onclick="fenerbahce()"> Fenerbahçe</button>
+    <button type="button" onclick="galatasaray()"> Galatasaray</button>
+    <button type="button" onclick="besiktas()"> Beşiktaş</button>
+    <button type="button" onclick="trabzon()"> Trabzon spor</button>
+    <script>
+       function fenerbahce(){
+            document.getElementsByTagName("body")[0].style.color="blue";
+            document.getElementsByTagName("body")[0].style.backgroundColor="yellow";
+       }
+       function galatasaray(){
+            document.getElementsByTagName("body")[0].style.color="yellow";
+            document.getElementsByTagName("body")[0].style.backgroundColor="red";
+       }
+       function besiktas(){
+            document.getElementsByTagName("body")[0].style.color="white";
+            document.getElementsByTagName("body")[0].style.backgroundColor="black";
+       }
+       function trabzon(){
+            document.getElementsByTagName("body")[0].style.color="red";
+            document.getElementsByTagName("body")[0].style.backgroundColor="blue";
+       }
+    </script>
+</body>
+</html>

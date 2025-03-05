@@ -1,0 +1,10 @@
+var sayi=52; //sayısal(number) veri tipi
+var oran=1.618; //sayısal(float) veri tipi
+var sehir="Ordu"; //metinsel(string) veri tipi
+var tercih=true; //mantıksal(boolean) veri tipi
+var personel={ //nesne(object) veri tipi
+ad:"Sinan",
+boy:1.87,
+kilo:92,
+meslek:"Şef(Aşçı)"
+}

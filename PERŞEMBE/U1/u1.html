@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js Nesne Veritipi</title>
+
+</head>
+<body id="kapsayici">
+    <H1 id="baslik">Koyu Ve açık Mode Uygulaması</H1>
+    <button type="button" onclick="darkMode()"> Dark Mode(koyu)</button>
+    <button type="button" onclick="lightMode()"> Light Mode(Açık )</button>
+    <script>
+       function darkMode(){
+            document.getElementById("kapsayici").style.color="white";
+            document.getElementById("kapsayici").style.backgroundColor="black";
+            document.getElementById("baslik").innerText="Koyu Ve açık Mode Uygulaması-Dark Mode";
+       }
+       function lightMode(){
+            document.getElementById("kapsayici").style.color="black";
+            document.getElementById("kapsayici").style.backgroundColor="white";
+            document.getElementById("baslik").innerText="Koyu Ve açık Mode Uygulaması-Light Mode";
+        }
+    </script>
+</body>
+</html>

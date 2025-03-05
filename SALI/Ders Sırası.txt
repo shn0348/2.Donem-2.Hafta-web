@@ -1,0 +1,6 @@
+1- Slayt tekrar
+2- U1 yap(değişken tipi)
+3- Slayt4 anlat
+4- Slayt5 anlat.
+5- U11 yap
+6- U12 yaptır.

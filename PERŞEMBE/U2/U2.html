@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Function ve Olay Uygulaması</title>
+    
+</head>
+<body id="kapsayici">
+    <H1 id="baslik">4 Büyük Takım Renk Uygulaması</H1>
+    <button type="button" onclick="fenerbahce()">Fenerbahçe</button>
+    <button type="button" onclick="galatasaray()">Galatasaray</button>
+    <button type="button" onclick="besiktas()">Beşiktaş</button>
+    <button type="button" onclick="trabzon()">Trabzon spor</button>
+    <script>
+       function fenerbahce(){
+          document.getElementById("kapsayici").style.color="blue";
+          document.getElementById("kapsayici").style.backgroundColor="yellow";
+          document.getElementById("baslik").innerText="4 Büyük Takım Renk Uygulaması - Fenerbahçe";
+       }
+       function galatasaray(){
+          document.getElementById("kapsayici").style.color="yellow";
+          document.getElementById("kapsayici").style.backgroundColor="red";
+          document.getElementById("baslik").innerText="4 Büyük Takım Renk Uygulaması - Galatasaray";
+       }
+       function besiktas(){
+          document.getElementById("kapsayici").style.color="white";
+          document.getElementById("kapsayici").style.backgroundColor="black";
+          document.getElementById("baslik").innerText="4 Büyük Takım Renk Uygulaması - Beşiktaş";
+       }
+       function trabzon(){
+          document.getElementById("kapsayici").style.color="#a41d34";
+          document.getElementById("kapsayici").style.backgroundColor="#14c0f1";
+          document.getElementById("baslik").innerText="4 Büyük Takım Renk Uygulaması - Trabzonspor";
+       }
+    </script>
+</body>
+</html>
